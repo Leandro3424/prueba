@@ -1,0 +1,273 @@
+*{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+.texto-blanco{
+    color: white !important;
+}
+
+.titulo-centrado{
+    width: 30%;
+    margin: 25px auto !important;
+    text-align: center;
+}
+
+.reducido{
+    width: 75%;
+    margin: auto !important;
+}
+
+/*/////////////////////////// CLASES EXTERNAS /////////////////////////////////////////////*/
+
+.btn-primary{
+    background-color: #23A6F0 !important;
+    border-color: #23A6F0 !important;
+}
+
+.card{
+    border-color: #23A6F0 !important;
+}
+
+.card-header{
+    color: white !important;
+    background: #8EC2F2 !important;
+    padding: 30px 50px !important;
+}
+
+.card h2{
+    color: #23A6F0 !important;
+    font-weight: bold !important;
+}
+
+.card-link{
+    color: #23A6F0 !important;
+}
+
+.accordion-button {
+    background-color: white !important;
+}
+
+.fa-circle-check{
+    margin: 10px !important;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#background{
+    z-index: 0;
+    background: url("../img/cover.jpg");
+    filter: brightness(0.5);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+}
+
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    margin: auto;
+    height: 76px;
+}
+
+#banner{
+    z-index: 1000;
+    position: absolute;
+    margin: 9rem 0 0 5rem;
+}
+
+#inicio-titulo{
+    padding-right: 5rem !important;
+    line-height: 138%;
+    margin-bottom: 2rem;
+}
+
+#inicio-subtitulo{
+    padding-right: 12rem !important;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+.btn-inicio{
+    padding: 1rem 2rem !important;
+    margin-bottom: 1rem;
+}
+
+#book{
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin: 10px -120px 0 120px;
+    padding: 30px;
+}
+
+.btn-largo{
+    width: -webkit-fill-available;
+    padding: 1rem 2rem !important;
+}
+
+#features{
+    margin-bottom: 5rem;
+}
+
+.pad-card{
+    padding: 30px 50px !important;
+}
+
+#content, #testimonials, #pricing{
+    background-color: #fafafa;
+    margin-top: -2rem;
+}
+
+#content h5{
+    font-size: 16px;
+    color: #212529;
+}
+
+.card-estrella{
+    border-color: #dedede !important;
+}
+
+.estrellas{
+    color: #F3CD03 !important;
+}
+
+#pricing{
+    padding-bottom: 2rem;
+}
+
+#precio{
+    margin-left: 7rem;
+}
+
+#precio2{
+    margin-left: 5.5rem;
+}
+
+#precio3{
+    margin-left: 5rem;
+}
+
+.check-verde{
+    color: #2DC071 !important;
+}
+
+.check-gris{
+    color: #BDBDBD !important;
+}
+
+.item-check{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0 0 2rem 0;
+}
+
+.card-variante{
+    background-color: #252B42 !important;
+}
+
+#contact{
+    background-color: #252B42 !important;
+}
+
+#boton-contact{
+    margin-left: -1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 1rem;
+}
+
+.texto-mobile{
+    display: none;
+}
+
+/*//////////////////////////////////////////////////// RESPONSIVE //////////////////////////////////////////////*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .reducido{
+        width: 90%;
+    }
+
+    .titulo-centrado, #footer{
+        width: 75%;
+        margin: auto;
+    }
+
+    #background{
+        width: 100%;
+        height: 920px;
+        background-position-x: -300px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    header{
+        position: relative;
+    }
+
+    .menu-mobile{
+        width: 100% !important;
+        background-color: white !important;
+    }
+
+    .menu-mobile a{
+        color: #212529 !important;
+        text-align: center;
+        font-size: 20px;
+        line-height: 3rem;
+    }
+
+    #banner{
+        z-index: 1000;
+        position: absolute;
+        margin: 3rem 0 0 0;
+    }
+
+    .btn-menu{
+        display: none !important;
+    }
+
+    #home{
+        text-align: center;
+    }
+
+    #inicio-titulo, #inicio-subtitulo{
+        text-align: center;
+        padding-right: 0 !important;
+    }
+
+    #book{
+        text-align: left;
+        margin: 30px 0;
+    }
+
+    .card-header{
+        color: #212529 !important;
+        background: #d9edff !important;
+        padding: 30px 50px !important;
+    }
+    
+    .card h2{
+        font-size: 38px !important;
+        font-weight: bold !important;
+    }
+
+    .texto-desktop{
+        display: none;
+    }
+
+    .texto-mobile{
+        display: block;
+        text-align: center !important;
+    }
+}
